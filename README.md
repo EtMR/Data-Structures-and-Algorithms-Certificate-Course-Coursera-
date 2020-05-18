@@ -3,7 +3,7 @@ This repo includes the supplementary materials I created when taking the courser
 
 This repo will be basically listing the algorithms I practice on:
 
-# 1. Sort algorithms
+# 1. sort_algorithms
 
 Result of the script (using random seed) for selection sort, insertion sort, bubble sort, and merge sort. Considering the run-time, python built-in sort function < merge sort < insertion sort < selection sort < bubble sort.
 
@@ -24,4 +24,44 @@ selecton sort:    0.5036540031433105
 insertion sort:   0.2631814479827881  
 bubble sort:      2.131913661956787  
 merge sort:       0.046868324279785156  
+</pre>
+
+# 2. integer_multiplication  
+This script implements the Karatsuba Multiplication for assignment #1. Instead of only testing on the problem stated in the question. I randomly tested the self-implemented function on three other cases (1) 4 digits * 4 digits, (2) 16 digits * 16 digits, and (3) 64 digits * 64 digits and compared the run-time with built-in "*" multiplcation function. The results are demonstrated below:
+
+<pre>
+----- 4 digits * 4 digits -----
+int1 =  8220
+int2 =  2914
+Built-in function result: 23953080. 
+Time spent = 0.0
+Self-imp function result: 23953080. 
+Time spent = 0.0
+</pre>
+<pre>
+----- 16 digits * 16 digits -----
+int1 =  1816443250374164
+int2 =  9489599478642800
+Built-in function result: 17237318921734899720426904619200. 
+Time spent = 0.0
+Self-imp function result: 17237318921734899720426904619200. 
+Time spent = 0.0009970664978027344
+</pre>
+<pre>
+----- 64 digits * 64 digits -----
+int1 =  2104968846162103373550783363667652680876105070442868653658730193
+int2 =  9106622569741617123023598256414743024930855512733701923471688264
+Built-in function result: 19169156803062780553833643737303685851029158853411054207058261243539486089719694174798845780526550791659499570766564832180554952. 
+Time spent = 0.0
+Self-imp function result: 19169156803062780553833643737303685851029158853411054207058261243539486089719694174798845780526550791659499570766564832180554952. 
+Time spent = 0.008986949920654297
+</pre>
+<pre>
+----- Programming Assignment #1 -----
+int1 =  3141592653589793238462643383279502884197169399375105820974944592
+int2 =  2718281828459045235360287471352662497757247093699959574966967627
+Built-in function result: 8539734222673567065463550869546574495034888535765114961879601127067743044893204848617875072216249073013374895871952806582723184. 
+Time spent = 0.0
+Self-imp function result: 8539734222673567065463550869546574495034888535765114961879601127067743044893204848617875072216249073013374895871952806582723184. 
+Time spent = 0.0056438446044921875
 </pre>
