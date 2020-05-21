@@ -67,13 +67,15 @@ Time spent = 0.0056438446044921875
 </pre>
 
 # 3. count_inv  
-This script implements the count inversion function for assignment #2. I also randomly tested the self-implemented function on an array with 10 integer (0~10) with random order for sanity check. The results are demonstrated below:
+This script implements the count inversion function for assignment #2. I also randomly tested the self-implemented function on an array with 10 integer (0~10) with random order for sanity check. According to the lecture, the count_inv function is piggybacking on the merge sort method; thus, sorted a sorted function is returned when calling the count_inv function. The results are demonstrated below:
 
 <pre>
 ----- Sanity Check -----
-san_chk arr:  [0, 4, 1, 6, 3, 2, 9, 5, 7, 8]
-function output (arr, count):  ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 10)
+san_chk arr:  [0, 4, 1, 6, 3, 2, 9, 5, 7, 8] (Input array)
+function output (arr, count):  ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 10)  
+(Standard output from my function: sorted array, count of inversion)
 
 ----- Assignment #2 -----
+Input array: IntegerArray.txt
 Count of inversions: 2407905288, time used: 2.1146366596221924.
 </pre>
