@@ -65,3 +65,15 @@ Time spent = 0.0
 Self-imp function result: 8539734222673567065463550869546574495034888535765114961879601127067743044893204848617875072216249073013374895871952806582723184. 
 Time spent = 0.0056438446044921875
 </pre>
+
+# 3. count_inv  
+This script implements the count inversion function for assignment #2. I also randomly tested the self-implemented function on an array with 10 integer (0~10) with random order for sanity check. The results are demonstrated below:
+
+<pre>
+----- Sanity Check -----
+san_chk arr:  [0, 4, 1, 6, 3, 2, 9, 5, 7, 8]
+function output (arr, count):  ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 10)
+
+----- Assignment #2 -----
+Count of inversions: 2407905288, time used: 2.1146366596221924.
+</pre>
