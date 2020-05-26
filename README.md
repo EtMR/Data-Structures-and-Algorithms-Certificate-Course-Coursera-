@@ -77,3 +77,17 @@ function output (arr, count):  ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 10)
 ----- Assignment #2 -----
 Count of inversions: 2407905288, time used: 2.1146366596221924.
 </pre>
+
+# 4. quicksort  
+This script implements the quicksort function for assignment #3. Combined with the sorting algorithm, the number of comparison during the partition phase is also counted and returned. Three different methods for choosing the pivot is implemented (first element, last element, & median element).
+
+<pre>
+----- Sanity Check -----
+san_chk arr:  [0, 4, 1, 6, 3, 2, 9, 5, 7, 8]
+function output (arr, count):  ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 26)
+
+----- Assignment #3 -----
+(Method 1) # of comparison using pivot = arr[0]:  162085
+(Method 2) # of comparison using pivot = arr[-1]:  164123
+(Method 3) # of comparison using pivot = median:  138382
+</pre>
