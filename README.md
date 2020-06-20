@@ -96,11 +96,10 @@ function output (arr, count):  ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 26)
 </pre>
 
 # CLASS II
-# 1. Strongly Connected Component
+# 1. SCC
 The script implements the calculation of strongly connected component for assignment #1. It is worth mentioning that the recurrisive method for depth-first search (DFS) was implemented before. However, it runs pretty slow and kills the kernel easily. Therefore, an alternative iterative method was implemented in this work. A test dataset using the graph (shown below) in the lecture note is also provided in the scipt for sanity check.
 
-<img src="./images/CLASS2 Assignment1.png" width="300" height="250">
-A schematic of the process flow using the test dataset.  
+<img src="./images/CLASS2 Assignment1.png" width="400" height="250">
 
 <pre>
 ----- Assignment #1 -----
