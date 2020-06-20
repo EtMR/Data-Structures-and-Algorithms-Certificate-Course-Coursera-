@@ -3,6 +3,7 @@ This repo includes the supplementary materials I created when taking the courser
 
 This repo will be basically listing the algorithms I practice on:
 
+# CLASS I
 # 1. sort_algorithms
 
 Result of the script (using random seed) for selection sort, insertion sort, bubble sort, and merge sort. Considering the run-time, python built-in sort function < merge sort < insertion sort < selection sort < bubble sort.
@@ -93,3 +94,16 @@ function output (arr, count):  ([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 26)
 (Method 2) # of comparison using pivot = arr[-1]:  164123
 (Method 3) # of comparison using pivot = median:  138382
 </pre>
+
+# CLASS II
+# 1. Strongly Connected Component
+The script implements the calculation of strongly connected component for assignment #1. It is worth mentioning that the recurrisive method for depth-first search (DFS) was implemented before. However, it runs pretty slow and kills the kernel easily. Therefore, an alternative iterative method was implemented in this work. A test dataset using the graph (shown below) in the lecture note is also provided in the scipt for sanity check.
+
+<img src="./images/CLASS2 Assignment1.png" width="300" height="250">
+A schematic of the process flow using the test dataset.  
+
+<pre>
+----- Assignment #1 -----
+# of top 3 SCC groups =  434821, 968, and 459
+</pre>
+
